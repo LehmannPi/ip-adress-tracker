@@ -1,15 +1,22 @@
 <template>
   <div class="container">
     <div class="background">
-			<img src="@/../images/pattern-bg.png" alt="Blue Background Image" class="background__image">
-		</div>
-		<InfoCard />
-    <div class="map"></div>
+      <img
+        src="@/../images/pattern-bg.png"
+        alt="Blue Background Image"
+        class="background__image"
+      />
+    </div>
+    <InfoCard />
+    <div class="map-container">
+      <div id="map"></div>
+			<div class="crap"></div>
+    </div>
   </div>
 </template>
 
 <script>
-import InfoCard from '../components/InfoCard.vue';
+import InfoCard from "../components/InfoCard.vue";
 
 export default {
   components: { InfoCard },
