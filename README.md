@@ -29,4 +29,4 @@ npm run serve
 <img src="./img/ip_tracker_done.jpg" height="400">
 
 ##
-#### This project is a solution to the a challenge on [Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0).
+#### This project is a solution to a challenge on [Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0).
