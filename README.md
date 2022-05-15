@@ -1,24 +1,32 @@
-# ip-adress-tracker
+## 🌐 IP Adress Tracker
 
-## Project setup
+This project is a web app in which the user can get IP Address locations.
+On reload, it returns the current user's IP and address.
+Precision of the information may vary according to the info by the API provider, [Abstract](https://www.abstractapi.com/).
+
+When running the project it's necessary to create a new API key in the provider's link above.
+
+## ⚙️ Installation
+
+1. Clone the latest code on the **develop** branch
+2. Install dependencies
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+3. Compiles and hot-reloads for development - 
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 🛠️ Built With
 
-### Lints and fixes files
-```
-npm run lint
-```
+- [Node.js](https://nodejs.org/en/download/)
+- [NPM](https://www.npmjs.com/)
+- [Vue.js](https://vuejs.org/)
+- [Vue Leaflet](https://vue2-leaflet.netlify.app/)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 🪟 Screenshot
+<img src="./img/ip_tracker_done.jpg" height="400">
+
+##
+#### This project is a solution to the a challenge on [Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0).
